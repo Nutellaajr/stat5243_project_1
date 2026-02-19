@@ -18,34 +18,6 @@ Median household income is measured at the state–year level and merged onto de
 
 ---
 
-## Methodology
-
-### Data Cleaning
-- Renamed columns for clarity
-- Standardized data types
-- Removed duplicate rows
-- Filtered valid years (2021–2023)
-- Checked for missing values
-
-### Feature Engineering
-- Filtered valid age codes
-- Converted age codes to numeric values
-- Created broader age groups:
-  - 0–18
-  - 19–30
-  - 31–45
-  - 46–60
-  - 61–75
-  - 76–84
-  - 85+
-- Created income features:
-  - Income relative to yearly national mean
-  - Income standardized (z-score within year)
-
-These transformations improve interpretability and comparability across states.
-
----
-
 ## Requirements
 
 Install dependencies:
